@@ -31,7 +31,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\include\glad\glad.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -148,5 +148,19 @@
     <Image Include="vendingmachine.jpeg">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="texturedCube.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="texturedCube.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vertexShader.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="fragmentShader.frag">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
